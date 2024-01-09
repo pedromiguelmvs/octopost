@@ -3,6 +3,7 @@ import FirstComment from '~components/FirstComment/FirstComment';
 import MainComposer from '~components/MainComposer/MainComposer';
 import MediaInputs from '~components/MediaInputs/MediaInput';
 import SavBar from '~components/SavBar/SavBar';
+import SocialMediaList from '~components/SocialMediaList/SocialMediaList';
 
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
@@ -19,6 +20,7 @@ const Home = () => {
             <Sidebar />
           </div>
           <div className={scss.gridInput}>
+            <SocialMediaList />
             <MainComposer />
             <MediaInputs />
             <FirstComment />
