@@ -115,7 +115,7 @@
       "stylelint --fix",
       "prettier --write"
     ],
-    "*": [
+    "*,!*.svg": [
       "prettier --write"
     ]
   }
